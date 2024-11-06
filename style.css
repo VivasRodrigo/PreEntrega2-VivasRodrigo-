@@ -1,0 +1,829 @@
+*   
+{
+    padding: 0;
+    margin: 0;
+}
+
+/**flexbox INDEX PROMOCIONES Y PRECIOS**/
+.mensaje
+{
+    padding: 2px;
+    background-color: rgb(88, 11, 230);
+    color: white;
+    font-size: 15px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header
+{
+    background-image: linear-gradient(rgb(88, 11, 230),rgb(88, 11, 230),blueviolet);
+    overflow: hidden;
+    width: 100%;  
+    padding-bottom: 10px;
+    height: auto;
+}
+
+
+.flexheader
+{
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header
+{
+    width: 20%;
+    text-align: center;  
+    margin: 0 auto;
+}
+
+.logo
+{
+    width: 170px;
+    height: 150px;
+}
+
+.logo:hover
+{
+    width: 173px;
+    height: 151px;
+}
+
+
+.barra
+{
+    align-content:center ;
+    width: 500px; 
+    margin: 0 auto;
+    
+}
+
+
+nav
+{   
+    overflow: hidden;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav ul
+{
+    list-style: none;    
+}
+
+nav ul li
+{
+    overflow: hidden;
+    float: left;
+    margin-left: 25px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(238, 124, 17);
+}
+
+a:hover
+{
+    color:rgb(255, 200, 149); ;
+}
+
+.buscar
+{
+    width: 350px;
+    padding-top: 0;
+    text-align: left;
+    align-content:center ;
+}
+
+.barrabusqueda
+{
+    
+    border: rgba(255, 123, 0, 0.74) solid;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    width: 300px;
+}
+
+h2
+{
+    color: blueviolet;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder; 
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+}
+
+.marcas
+{
+    background-color: white;
+        width: 200px;
+    height: 200px;
+    margin: 0 auto;
+   }
+
+.flexformat
+{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imgmarcas
+{
+    height: 90%;
+    width: 90%;
+    padding: 5%;
+}
+
+.imgmarcas:hover
+{
+    height: 95%;
+    width: 95%;
+}
+
+.format
+{
+    text-align: center;
+}
+
+.imgpagos
+{
+    width: 90%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+footer  
+{
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.tablaprecios
+{   
+    border-collapse: separate;
+    border-spacing: 10px 0px;
+    font-size: 18px;
+    background-color: white;
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.tdtitulo
+{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center; 
+}
+
+td
+{
+    width: 300px;
+    font-size: 16px;
+    text-align: center;
+}
+
+tr
+{
+    border: rgba(137, 43, 226, 0.521) solid;
+}
+
+.promo
+{
+    height: 80%;
+}
+
+/**Media queris**/
+
+
+@media (min-width: 0px) and (max-width:480px)
+{
+    .mensaje
+    {
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+
+    .flexheader
+    {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+    
+    header 
+    {
+        height: auto;
+    }
+
+    .header
+    {
+        width: auto;
+        text-align: center;
+    }
+
+    .logo
+    {
+        width: 85px;
+        height: 75px;
+    }
+
+    .logo:hover
+    {
+        width: 87px;
+        height: 76px;
+    }
+    
+    .barra
+    {
+        margin: 0 auto;
+        width: 90%;   
+        padding-top: 10px;
+    }
+
+    nav ul li
+    {
+        overflow: hidden;
+        float: left;
+    }
+
+    nav ul li a
+    {
+        font-size: 15px;
+        text-align: right;
+        margin: 5px;
+    }
+
+    .buscar
+    {
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .barrabusqueda
+    {
+        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 12px;
+        width: 100%;
+        height: 25px;
+        margin-left: 0px;
+        text-align: left;
+    }
+
+    h2 
+    {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .marcas
+    {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+    }
+
+    .imgmarcas
+    {
+        height: 80%;
+        width: 80%;
+        padding: 5%;
+    }
+   
+    footer  
+    {
+        padding: 3px;
+        font-size: 12px;    
+    }
+}
+
+@media (min-width: 481px) and (max-width:768px)
+{
+    .mensaje
+    {
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+
+    header 
+    {
+        height: auto;
+    }
+
+    .flexheader
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header
+    {
+        width: 15%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .logo
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo:hover
+    {
+        width: 101%;
+        height: 101%;
+    }
+
+    .barra
+    {
+        width: 380px;   
+        margin: 0   auto;
+        text-align: center;
+    }
+
+    nav ul li
+    {
+        overflow: hidden;
+        float: left;
+    }
+
+    nav ul li a
+    {
+        font-size: 15px;
+        text-align: right;
+        margin: 0px;
+    }
+
+    .buscar
+    {
+        width: 380px;
+        padding: 10px;
+        text-align: right;
+        margin-right: 5%;        
+    }
+    .barrabusqueda
+    {
+        font-size: 12px;
+        width: 300px;
+        height: 25px;
+        margin-left: 0px;
+        text-align: left;
+    }
+
+    h2 
+    {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .marcas
+    {
+        width: 105px;
+        height: 105px;
+        margin: 0 auto;
+    }
+
+    .imgmarcas
+    {
+        height: 80%;
+        width: 80%;
+        padding: 5%;
+    }
+   
+    footer  
+    {
+        padding: 3px;
+        font-size: 12px;    
+    }
+  
+}
+
+
+/**grids CONTACTO**/
+
+.gridcontacto
+{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    grid-template-areas:   
+                'gcabecera gcabecera'
+                'gbarra gbarra'
+                'gmensaje gdatos'
+                'gmensaje gmapa'
+                'gfooter gfooter';
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20px 170px auto auto 20px;
+    
+}
+
+.c1
+{
+    grid-area: gcabecera;
+    width: auto;
+    padding: 2px;
+    background-color: rgb(88, 11, 230);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.c2
+{
+    grid-area: gbarra;
+    width: 100%;
+    background-image: linear-gradient(rgb(88, 11, 230),rgb(88, 11, 230),blueviolet);
+    overflow: hidden;
+    padding-bottom: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: right;
+    
+}
+
+.c3
+{
+    grid-area: gmensaje;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.c4
+{
+    grid-area: gdatos;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.c5
+{
+    grid-area: gmapa;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.c6
+{
+    grid-area: gfooter;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loogo
+{
+    width: 25%;
+    text-align: right; 
+    align-content: center;
+    margin: 0   auto;  
+}
+
+.logogrids
+{
+    width: 170px;
+    height: 150px;
+}
+
+.logogrids:hover
+{
+    width: 173px;
+    height: 151px;
+}
+
+.gbarra
+{
+    width: 70%;   
+    align-content: center;
+    margin: 0   auto;
+    text-align: right;
+}
+
+.gbarrabusqueda
+{
+    border: rgba(255, 123, 0, 0.74) solid;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    width: 300px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.gnav
+{   
+    overflow: hidden;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.gnav ul
+{
+    list-style: none;  
+}
+
+.gnav ul li
+{
+    float: right;
+    margin-left: 30px;  
+}
+
+.gnav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.gmensajecontacto
+{
+   margin-left: 20%;
+   margin-top: 5%;
+}
+
+.gmsj
+{
+    width: 85%;
+    height: 6%;
+    border: blueviolet 2px solid;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px; 
+    border-radius: 10px;
+}
+
+.gmsj1
+{
+    width: 85%;
+    height: 50%;
+    border: blueviolet 2px solid;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.gboton
+{
+    color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.199);
+    border-radius: 5px;
+    font-size: 20px;
+    
+    width: 120px;
+}
+
+.gtablacontacto
+{
+    border: blueviolet 2px solid;
+    border-radius: 10px;
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;    
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+
+.gtipocontacto
+{
+    width: 50%;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 20px;    
+}
+.gcontacto
+{
+    width: 100%;
+    text-align: right;
+    font-style: italic;
+    font-size: 16px;    
+}
+
+.gacontacto
+{
+    text-decoration: none;
+    color: blueviolet;   
+    
+}
+
+.gmapa
+{   
+    border: blueviolet 2px solid;
+    margin-left: 10%;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+
+
+@media (min-width: 0px) and (max-width:1070px)
+{
+
+    .gridcontacto
+    {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        grid-template-areas:   
+                    'gcabecera'
+                    'gbarra'
+                    'gmensaje'
+                    'gdatos'
+                    'gmapa'
+                    'gfooter';
+        grid-template-columns: 100%;
+        grid-template-rows: 20px 30% 50% auto auto 20px; 
+    }
+
+    .c1
+    {
+        font-size: 12px;
+    }
+
+    .c2
+    {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .c3
+    {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+
+    .c5
+    {
+        text-align: center;
+    }
+
+    .c6
+    {
+        font-size: 12px;
+    }
+ 
+
+    .loogo
+    {
+        width: 25%; 
+    }
+
+    .logogrids
+    {
+        width: 170px;
+        height: 150px;
+    }
+
+    .logogrids:hover
+    {
+        width: 173px;
+        height: 151px;
+    }
+
+    .gbarra
+    {
+        width: 550px;   
+        text-align: center;
+    }
+
+    .gbarrabusqueda
+    {
+        border: rgba(255, 123, 0, 0.74) solid;
+        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        width: 200px;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+
+    .gnav ul li
+    {
+        float: inline-end;
+        margin-left: 15px;  
+    }
+
+    .gnav ul li a
+    {
+        text-decoration: none;
+        font-size: 16px;
+        color: rgb(238, 124, 17);
+    }
+
+    .gmensajecontacto
+    {
+        margin-left: 0%;
+    }
+
+    .gmsj
+    {
+        width:70%;
+        height: 6%;
+        border: blueviolet 2px solid;
+        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 16px; 
+        border-radius: 10px;
+    }
+
+    .gmsj1
+    {
+        width: 70%;
+        height: 150px;
+        border: blueviolet 2px solid;
+        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 16px;
+        border-radius: 10px;   
+    }
+
+    .gboton
+    {
+        color: blueviolet;
+        background-color: rgba(137, 43, 226, 0.199);
+        border-radius: 5px;
+        font-size: 16px;
+        width: 100px;
+    }
+
+    .gtablacontacto
+    {
+        border: blueviolet 2px solid;
+        border-radius: 10px;
+        width: 70%;
+        height: 50%;
+        background-color: white;
+        color: blueviolet;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 0%;
+        padding-right: 0%;    
+        margin: 0 auto;
+        margin-top: 0%;       
+    }
+
+    .gtipocontacto
+    {
+        font-size: 16px; 
+        text-align: center;  
+    }
+    .gcontacto
+    {
+        font-size: 14px; 
+        text-align: center;    
+    }
+
+    .gmapa
+    {   
+        margin: 0   auto;
+        width: 70%;
+        height: 300px;
+        margin: 5%;
+    }
+}
